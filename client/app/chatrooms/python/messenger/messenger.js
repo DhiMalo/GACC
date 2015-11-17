@@ -1,8 +1,8 @@
-angular.module("myApp.messages", [])
+angular.module("myApp.pythonMessenger", [])
 
-.controller("MessagesController", ["$scope", "$state", "Auth", "$firebaseArray",
+.controller("PythonMsgController", ["$scope", "$state", "Auth", "$firebaseArray",
   function($scope, $state, Auth, $firebaseArray) {
-    var ref = new Firebase("https://gitlytest.firebaseio.com/messages");
+    var ref = new Firebase("https://gitlytest.firebaseio.com/python");
     $scope.messages = $firebaseArray(ref);
     $scope.auth = Auth;
 
@@ -20,7 +20,7 @@ angular.module("myApp.messages", [])
 
     $scope.logOut = function() {
       // Auth.$unauth();
-      Auth.$unauth()
+      Auth.$unauth();
       $state.go('login');
       console.log('this works');
     };
