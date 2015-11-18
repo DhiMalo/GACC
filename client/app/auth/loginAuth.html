@@ -1,12 +1,10 @@
-<div class="startSplash">
-  <div ng-show="authData">
-    <p>Hello, {{ authData.github.displayName }}</p>
-    <button ng-click="auth.$unauth()">Logout</button>
-  </div>
-  <div ng-hide="authData">
-    <p>Welcome, please log in.</p>
-    <button ng-click="auth.$authWithOAuthPopup('github')">Login With Github</button>
-  </div>
+<div ng-show="authData">
+  <p> Hello, {{ authData.github.displayName }} </p>
+  <button ng-click="auth.$unauth()">Logout</button>
+</div>
+<div ng-hide="authData">
+  <h4 class="centered"> Welcome, please log in. </h4>
+  <button class="centered" ng-click="auth.$authWithOAuthPopup('github')"> Login With Github </button>
 </div>
 
 

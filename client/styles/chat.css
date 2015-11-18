@@ -11,6 +11,10 @@ body {
   background-color: #272b30;
 }
 
+.centered {
+  text-align: center
+}
+
 /*.cs-header {
     display: none !important;/*Use this command safely :).
 }
