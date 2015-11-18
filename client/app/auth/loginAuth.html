@@ -2,10 +2,9 @@
   <p> Hello, {{ authData.github.displayName }} </p>
   <button ng-click="auth.$unauth()">Logout</button>
 </div>
-<div ng-hide="authData">
-  <h4 class="centered"> Welcome, please log in. </h4>
-  <button class="centered" ng-click="auth.$authWithOAuthPopup('github')"> Login With Github </button>
+<div class="centered" ng-hide="authData">
+  <h4> Welcome, please log in. </h4>
+  <a href="#" id="centeredbutton" class="btn btn-primary btn-lg" ng-click="auth.$authWithOAuthPopup('github')"> Login With Github </a>
 </div>
-
 
 
