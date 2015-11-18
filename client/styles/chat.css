@@ -1,15 +1,29 @@
 #home-container {
-	margin: 0px 50px 0px 50px;
+  margin: 0px 50px 0px 50px;
 }
 
-.col-md-7{
-	border:solid;
+.splash {
+  background-image: url(../images/main-bg.jpeg);
+  background-color: #272b30;
+}
+
+body {
+  background-color: #272b30;
+}
+
+/*.cs-header {
+    display: none !important;/*Use this command safely :).
+}
+*/
+
+/*.col-md-7{
+  border:solid;
 }
 
 .col-md-3{
-	border:solid;
+  border:solid;
 }
 
 .col-md-2{
-	border:solid;
-}
+  border:solid;
+}*/
