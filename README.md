@@ -1,53 +1,54 @@
-# :mega: :octocat: Gathering All Crafty Coders! :octocat: :mega:
+# GACC
 
-##$ Join a Gathering
+> A social & pair-programming coding platform that connects novice programmers with experienced programmers
 
-    Join a Gathering based on your interests and skills. Meet other folks like you. 
-
-##$ Git Crafty
-  
-    Find and collaborate with other crafty coders. Share code with the live code editor.  
-
-##$ Git Connected
-
-    Chat live with other users to git Connected while sharing code or not. 
-
-###GACC is __Gathering All Crafty Coders__, Beginners Welcome.
-
-Join a Gathering or Meet a Friend [HERE](https://gitlytest.firebaseapp.com/#/login)!
-
-
-## About this project
+## Table of Contents
 
 1. [Team](#team)
+1. [Technology Stack](#technology-stack)
+1. [Application Overview](#application-overview)
 1. [Project Roadmap](#project-roadmap)
 1. [Usage](#usage)
-1. [Development](#development)
+    1. [Requirements](#requirements)
     1. [Installing Dependencies](#installing-dependencies)
 1. [Contributing](#contributing)
 
-## Team
+<br>
 
-  - __Product Owner__: Carine Todmia
-  - __Scrum Master__: Aheri Stanford-Asiyo
-  - __Development Team Members__: Gabriel Matias, Clifford Fajardo
+### Team
 
-<!--## Product Description-->
+[![CliffordFajardo](https://avatars0.githubusercontent.com/u/6743796?v=3&s=70)](https://github.com/cliffordfajardo) <br>Clifford Fajardo| [![Carine Todmia](https://avatars0.githubusercontent.com/u/9440923?v=3&s=70)](https://github.com/ctodmia) <br>Carine Todmia| [![Gabriel Matias](https://avatars1.githubusercontent.com/u/11906352?v=3&s=70)](https://github.com/Gmatias93)<br>Gabriel Matias |[![Aheri Stanford-Asiyo](https://avatars0.githubusercontent.com/u/10456737?v=3&s=70)](https://github.com/dhimalo) <br> Aheri Stanford-Asiyo
+  --- | --- | --- | --- | --- | --- | ---
+  [LinkedIn](https://www.linkedin.com/in/cliffordfajardo)<br>[Blog](http://cliffordfajardo.github.io/)<br>[Twitter](https://twitter.com/cliffordfajard0)|[LinkedIn](https://www.linkedin.com/in/carinetodmia) | [LinkedIn](https://www.linkedin.com/in/gabrielmatias)<br>[Twitter](https://twitter.com/GabeCodes)|[LinkedIn](https://www.linkedin.com/in/aheri)<br>[Twitter](https://twitter.com/Aherisan)
 
-## Project Roadmap
+
+<br>
+
+### Technology Stack
+
+<img src="http://i.imgur.com/dktBkgD.png"> |<img src="http://i.imgur.com/tJ6t51r.png">|  <img src="http://i.imgur.com/XiDcCDJ.png">|<img src="http://i.imgur.com/QbZQ4D0.png">|<img src="http://i.imgur.com/9NTYGH3.png">
+  --- | --- | --- | --- | --- |
+Angularjs| Firebase | Bootstrap| OAuth|Codeshare.io
+
+<br>
+### Application Overview
+
+Feature showcase: Real time code editing & real time messaging chat rooms
+<img src="http://i.imgur.com/LQG0tr7.png">
+
+
+
+
+### Project Roadmap
 
 View the project roadmap [here](https://github.com/magicDonuts/magicDonuts/issues).
 
+<br>
+### Requirements
 
-## Usage
+- Node    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;version 3.0+
+- Bower   &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;version 1.4+
 
-> GACC has been deployed using Firebase. Visit the [Firebase Webpage](https://www.firebase.com) for details. 
-
-## Requirements
-
-- Node 0.10.x
-
-## Development
 
 ### Installing Dependencies
 
@@ -59,6 +60,6 @@ npm install
 bower install
 ```
 
-## Contributing
+### Contributing
 
 See [CONTRIBUTING.md](_CONTRIBUTING.md) and [STYLE_GUIDE.md](_STYLE_GUIDE.md) for contribution guidelines and our style guide.
