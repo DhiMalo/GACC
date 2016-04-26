@@ -33,7 +33,7 @@ Angularjs| Firebase | Bootstrap| OAuth|Codeshare.io
 <br>
 ### Application Overview
 
-Feature showcase: Real time code editing & real time messaging chat rooms
+Feature showcase: Real time code editing & real time group chat rooms
 <img src="http://i.imgur.com/LQG0tr7.png">
 
 
