@@ -1,6 +1,6 @@
 # GACC
 
-> A social & pair-programming coding platform that connects novice programmers with experienced programmers
+> A social coding platform for real-time group collaboration and learning
 
 ## Table of Contents
 
